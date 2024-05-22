@@ -1,0 +1,98 @@
+body{
+	background-image: url(../pic/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 1;
+	font-family: "Josefin Slab", serif;
+}
+html::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 80%;
+    height: 100%;
+    transform: translateX(-50%);
+    background-color: rgba(200, 200, 200, 0.4); /* 使用半透明背景 */
+    z-index: -1;
+}
+header{
+	text-align: center;
+	width: 80%; /* 调整边框的长度为页面宽度的80% */
+    margin: auto; /* 在水平方向上居中 */
+	border-bottom: 8px solid rgba(100, 100, 100, 0.5); /* 添加浅灰色细线 */
+}
+.thanks{
+	text-align: center;
+}
+.inscribe{
+	width: 60%;
+	left: 20%;
+	margin-bottom: 20px; 
+	border-bottom: 10px solid rgba(100, 100, 100, 0.5); /* 添加浅灰色细线 */
+}
+.content{
+	display: flex;
+    flex-direction: column;
+    align-items: center; 	
+}
+.check{
+	width: 60%;
+	margin-bottom: 20px; 
+	border-bottom: 10px solid rgba(100, 100, 100, 0.5); /* 添加浅灰色细线 */
+}
+.inscribe_top{
+	width: 80%;
+	position: relative;
+	margin-bottom: 20px; 
+	padding-left: 10px; /* 向右偏移文本 */
+	border-bottom: 10px solid rgba(100, 100, 100, 0.5); /* 添加浅灰色细线 */
+}
+.inscribe_top h3,
+.inscribe_top p {
+    position: relative; /* 将标题和段落设置为相对定位 */
+    left: 40px; /* 向右偏移文本 */
+}
+.newsletter{
+	display: flex;
+	width: 80%;
+	position: relative;
+	justify-content: space-between;/* 元素之间水平对齐 */
+	text-align: left;
+	border-bottom: 10px solid rgba(100, 100, 100, 0.5); /* 添加浅灰色细线 */
+}
+.content_top{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.check-box{
+	margin-top: 10px; 
+}
+/*.check-box input[type="checkbox"]{*/
+/*    margin: 0;  清除段落的默认边距 */
+/*    text-align: left;  将文本左对齐 */
+/*}*/
+.newsletter_top h3 {
+    position: relative; /* 将标题和段落设置为相对定位 */
+}
+.check-box p {
+	position: relative; 
+	right:400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
